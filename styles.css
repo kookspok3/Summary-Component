@@ -18,12 +18,12 @@ body{
     justify-content: center;
     height: 45vh;
     border-radius: 0 0 40px 40px; 
-    h1{
-        color: hsl(241, 100%, 89%);
-        font-size: 18px;
-        font-weight: 700;
-        margin-top: 1rem;
-    }
+}
+.resultados h1{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 1rem;
 }
 .resultados:hover{
     cursor: default;
@@ -38,18 +38,18 @@ body{
     width: 18vh;
     height: 18vh;
     border-radius: 50%;
-    h2{
-        color: hsl(0, 0%, 100%);
-        width: 100%;
-        margin: 5% 0 2%;
-        font-size: 55px;
-        text-align: center;
-    }
-    h3{
-        color: hsla(241, 100%, 89%, 0.5);
-        font-size: 15px;
-        margin: 0;
-    }
+}
+#circulo-progreso h2{
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    margin: 5% 0 2%;
+    font-size: 55px;
+    text-align: center;
+}
+#circulo-progreso h3{
+    color: hsla(241, 100%, 89%, 0.5);
+    font-size: 15px;
+    margin: 0;
 }
 #great{
     color: hsl(0,0%,100%);
@@ -71,11 +71,11 @@ body{
     min-height: 20rem;
     min-width: 15rem;
     padding: 0 10%;
-    h1{
-        margin: 8% 0 3% 0;
-        font-size: 18px;
-        color: hsl(224, 30%, 27%);
-    }
+}
+.resumen h1{
+    margin: 8% 0 3% 0;
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
 }
 .avances{
     width: 100%;
@@ -86,29 +86,29 @@ body{
     border-radius: 10px;
     height: 13%;
     transition: all ease .3s;
-    img{
-        width: 7%;
-        margin: 0 4%;
-        transition: all ease .3s;
-    }
-    h2{
-        width: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        font-size: 18px;
-        font-weight: 700;
-        margin: 0;
-        transition: all ease .3s;
-    }
-    p{
-        width: 35%;
-        text-align: center;
-        color: hsl(224, 30%, 27%, 0.8);
-    }
+}
+.avances p{
+    width: 35%;
+    text-align: center;
+    color: hsl(224, 30%, 27%, 0.8);
+}
+.avances img{
+    width: 7%;
+    margin: 0 4%;
+   transition: all ease .3s;
 }
 .avances:hover img{
     transform: scale(1.2);
+}
+.avances h2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    transition: all ease .3s;
 }
 .avances:hover h2{
     transform: scale(1.05)
@@ -116,27 +116,27 @@ body{
 }
 #reaction{
     background-color: hsl(0, 100%, 67%, 0.05);
-    h2{
-        color:  hsl(0, 100%, 67%, 0.7);
-    }
+}
+#reaction h2{
+    color:  hsl(0, 100%, 67%, 0.7);
 }
 #memory{
     background-color: hsl(39, 100%, 56%, 0.05);
-    h2{
-        color:  hsl(39, 100%, 56%, 0.7);
-    }
+}
+#memory h2{
+    color:  hsl(39, 100%, 56%, 0.7);
 }
 #verbal{
     background-color: hsl(166, 100%, 37%, 0.05);
-    h2{
-        color:  hsl(166, 100%, 37%, 0.7);
-    }
+}
+#verbal h2{
+    color:  hsl(166, 100%, 37%, 0.7);
 }
 #visual{
     background-color: hsl(234, 85%, 45%, 0.05);
-    h2{
-        color:  hsl(234, 85%, 45%, 0.7);
-    }
+}
+#visual h2{
+    color:  hsl(234, 85%, 45%, 0.7);
 }
 .avances:hover{
     cursor: default;
@@ -183,9 +183,9 @@ footer{
         height: 26rem;
         width: 19rem;
         border-radius: 40px; 
-        h1{
-            margin: 3%;
-        }
+    }
+    .resultados h1{
+        margin: 3%;
     }
     #descripcion{
         font-size: 15px;
@@ -199,16 +199,16 @@ footer{
         height: 26rem;
         width: 21rem;
         padding: 5%;
-        h1{
-            font-size: 25px;
-            margin: 2% 0;
-        }
+    }
+    .resumen h1{
+        font-size: 25px;
+        margin: 2% 0;
     }
     .avances{
         height: 12%;
-        h2{
-            font-size: 15px;
-        }
+    }
+    .avances h2{
+        font-size: 15px;
     }
     .continueclass{
         height: 12%;
