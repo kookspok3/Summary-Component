@@ -171,6 +171,7 @@ footer{
         min-height: 35rem;
     }
     .box{
+        transform: scale(1.15);
         display: flex;
         flex-direction: row;
         box-shadow: 4px 10px 10px 4px rgb(218, 218, 218);
