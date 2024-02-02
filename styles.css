@@ -140,7 +140,7 @@ body{
 footer{
     display: none;
 }
-@media (min-width: 901px){
+@media (min-width: 1080px){
     html{
         transform: scale(1.1);
     }
